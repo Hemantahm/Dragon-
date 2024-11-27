@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon City Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Dragon City</h1>
+    <div id="dragons">
+      <!-- Dragons will be displayed here -->
+    </div>
+    <div id="actions">
+      <button onclick="buyDragon()">Buy Dragon</button>
+      <button onclick="feedDragon()">Feed Dragon</button>
+    </div>
+    <div id="stats">
+      <h2>Player Stats</h2>
+      <p>Dragons Collected: <span id="dragonCount">0</span></p>
+      <p>Coins: <span id="coins">100</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
